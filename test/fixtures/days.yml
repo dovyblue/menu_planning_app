@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2017-07-02
+  main_dish: MyString
+  side_1: MyString
+  side_2side_3: MyString
+  salad: MyString
+  starter: MyString
+  dessert: MyString
+  soup: MyString
+
+two:
+  date: 2017-07-02
+  main_dish: MyString
+  side_1: MyString
+  side_2side_3: MyString
+  salad: MyString
+  starter: MyString
+  dessert: MyString
+  soup: MyString
