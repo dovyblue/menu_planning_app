@@ -7,4 +7,5 @@ class Recipe < ApplicationRecord
   has_many :tags, through: :recipe_tags
   has_many :recommended_withs
   has_many :recommended_recipes, through: :recommended_withs
+  validates :title, :prep_time, :serving, :difficulty, :preference, presence: true
 end

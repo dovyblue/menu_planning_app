@@ -2,5 +2,8 @@
 
 FactoryGirl.define do
   factory :ingredient do
+    association :recipe
+    name 'sugar'
+    amount '1/2 cup'
   end
 end

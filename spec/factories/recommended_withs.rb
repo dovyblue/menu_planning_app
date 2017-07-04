@@ -2,5 +2,7 @@
 
 FactoryGirl.define do
   factory :recommended_with do
+    association :recipe
+    association :recommended_recipe, factory: :recipe
   end
 end
